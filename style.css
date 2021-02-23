@@ -5,7 +5,7 @@ overflow-y: hidden;
 }
 .night{
   height: 80vh;
-  width:70vh;
+  width:70vw;
   border: 1px solid black;
   margin: 5rem auto;
   background: url('assets/Img_1.png');
@@ -35,16 +35,20 @@ overflow-y: hidden;
 @keyframes moveRight {
   100%{transform: translateX(-2950px);
 }
-/*car animation*/
+}
 
+/*car animation*/
 @keyframes suspension {
-100%{
-  transform: translateY(-1px);
-}
-50%{
-  transform: translateY(2px);
-}
-0%{
-  transform: translateY(-1px);
-}
+  100%{
+    transform: translateY(-1px);
+  }
+  50%{
+    transform: translateY(2px);
+  }
+    0%{
+      transform: translateY(-1px);
+    }
+  }
+  }
+
 }
